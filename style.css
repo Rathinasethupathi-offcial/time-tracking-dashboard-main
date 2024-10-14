@@ -1,0 +1,180 @@
+html, body {
+    background-color: hsl(226, 43%, 10%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Rubik', sans-serif;
+    margin: 0px;
+}
+
+
+.profilecard
+{
+    height: 460px;
+    width: 220px;
+    background-color: rgb(35, 35, 67);
+    border-radius: 10px;
+}
+.profile
+{
+padding: 20px;
+background-color: hsl(246, 80%, 60%);
+border-radius: 10px;
+height: 250px;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.time
+{
+    color: hsl(235, 45%, 61%);
+    padding: 4px;
+    margin-left: 10px;
+    
+}
+.time:hover
+{
+    color:aliceblue;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.workcardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.playcardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.playcardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exercisecardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.studycardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.socialcardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.selfcarecardimage
+{
+    border: 2px solid;
+    width:200px;
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.textcard
+{
+    background-color:rgb(35, 35, 67); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -30px;
+    position: relative;
+    color: aliceblue;
+    cursor: pointer;
+}
+.toptext
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.eclipse
+{
+    height: 5px;
+}
+.hours
+{
+    font-size: 20px;
+    font-weight: 300;
+}
+.lastweek
+{
+    font-size: small;
+    color: hsl(236, 100%, 87%);
+}
+.cards
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 680px;
+    align-items: center;
+    justify-content: center;
+
+}
+.overall
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons
+{
+    height: 70px;
+    width: 70px;
+}
+.textcard:hover
+{
+background-color: hsl(236, 41%, 27%);
+}
+.name
+{
+    font-size: 25px;
+    font-weight: 100;
+    color: aliceblue;
+}
+.report
+{
+    color: rgb(221, 220, 220);
+    margin-top: 50px;
+}
