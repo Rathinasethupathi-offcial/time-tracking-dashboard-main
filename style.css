@@ -47,7 +47,6 @@ height: 250px;
 }
 .workcardimage
 {
-    border: 2px solid;
     width:200px;
     background-color: hsl(15, 100%, 70%);
     border-radius: 10px;
@@ -56,7 +55,6 @@ height: 250px;
 }
 .playcardimage
 {
-    border: 2px solid;
     width:200px;
     background-color: hsl(195, 74%, 62%);
     border-radius: 10px;
@@ -65,7 +63,6 @@ height: 250px;
 }
 .playcardimage
 {
-    border: 2px solid;
     width:200px;
     background-color: hsl(195, 74%, 62%);
     border-radius: 10px;
@@ -75,7 +72,6 @@ height: 250px;
 
 .exercisecardimage
 {
-    border: 2px solid;
     width:200px;
     background-color: hsl(145, 58%, 55%);
     border-radius: 10px;
@@ -84,7 +80,7 @@ height: 250px;
 }
 .studycardimage
 {
-    border: 2px solid;
+   
     width:200px;
     background-color: hsl(348, 100%, 68%);
     border-radius: 10px;
@@ -93,7 +89,6 @@ height: 250px;
 }
 .socialcardimage
 {
-    border: 2px solid;
     width:200px;
     background-color: hsl(264, 64%, 52%);
     border-radius: 10px;
@@ -102,7 +97,6 @@ height: 250px;
 }
 .selfcarecardimage
 {
-    border: 2px solid;
     width:200px;
     background-color: hsl(43, 84%, 65%);
     border-radius: 10px;
@@ -147,7 +141,6 @@ height: 250px;
     flex-wrap: wrap;
     max-width: 680px;
     align-items: center;
-    justify-content: center;
 
 }
 .overall
@@ -156,6 +149,7 @@ height: 250px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap:10px;
 
 }
 .icons
@@ -166,6 +160,8 @@ height: 250px;
 .textcard:hover
 {
 background-color: hsl(236, 41%, 27%);
+transform: translateY(-5px);
+transition: transform 0.3s ease;
 }
 .name
 {
